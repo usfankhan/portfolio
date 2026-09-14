@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Usfan Ali Khan — Software Engineer | Python, Java, Full Stack, AI" />
+  <title>Usfan Ali Khan — Software Engineer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════
+       NAV
+  ═══════════════════════════════════════ -->
+  <nav id="navbar">
+    <a class="nav-wordmark" href="#home">Usfan Ali Khan</a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certs">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="toggle" id="themeToggle" aria-label="Toggle light/dark mode"></button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home"       onclick="closeMobile()">Home</a>
+    <a href="#skills"     onclick="closeMobile()">Skills</a>
+    <a href="#education"  onclick="closeMobile()">Education</a>
+    <a href="#experience" onclick="closeMobile()">Experience</a>
+    <a href="#projects"   onclick="closeMobile()">Projects</a>
+    <a href="#certs"      onclick="closeMobile()">Certifications</a>
+    <a href="#contact"    onclick="closeMobile()">Contact</a>
+  </div>
+
+  <!-- ═══════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════ -->
+  <section id="home">
+    <div class="hero-blob"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="hero-dot"></span>
+        Software Development Intern · Muraai Information Technologies
+      </div>
+      <h1 class="hero-name">Usfan Ali Khan</h1>
+      <p class="hero-tagline">
+        Software Engineer building Python automation, AI workflows, and full-stack products.
+        CSE graduate from SMVIT Bengaluru with a CGPA of 8.87.
+      </p>
+      <div class="hero-actions">
+        <a class="btn-solid" href="#contact">Get in touch</a>
+        <a class="btn-outline" href="#projects">See projects</a>
+      </div>
+      <div class="hero-contacts">
+        <a class="hero-contact-item" href="tel:+918722512748">+91 87225 12748</a>
+        <a class="hero-contact-item" href="mailto:usfankhan43@gmail.com">usfankhan43@gmail.com</a>
+        <a class="hero-contact-item" href="https://www.linkedin.com/in/usfan-ali-khan/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="hero-contact-item" href="https://github.com/usfankhan" target="_blank" rel="noopener">GitHub</a>
+        <span class="hero-contact-item">Bengaluru, Karnataka</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       SKILLS
+  ═══════════════════════════════════════ -->
+  <section id="skills" class="section section-alt">
+    <div class="section-head reveal">
+      <p class="s-label">technical skills</p>
+      <h2 class="s-title">Skills</h2>
+    </div>
+    <div class="skills-cols reveal">
+      <div class="skill-group">
+        <div class="sg-head">Languages</div>
+        <div class="sg-items">
+          <span class="sk-tag">Python</span>
+          <span class="sk-tag">Java</span>
+          <span class="sk-tag">C</span>
+          <span class="sk-tag">JavaScript</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="sg-head">Backend &amp; APIs</div>
+        <div class="sg-items">
+          <span class="sk-tag">Spring Boot</span>
+          <span class="sk-tag">Node.js</span>
+          <span class="sk-tag">REST APIs</span>
+          <span class="sk-tag">JSON</span>
+          <span class="sk-tag">Gmail / SMTP</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="sg-head">Frontend</div>
+        <div class="sg-items">
+          <span class="sk-tag">React</span>
+          <span class="sk-tag">HTML5</span>
+          <span class="sk-tag">CSS3</span>
+          <span class="sk-tag">TypeScript</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="sg-head">Databases</div>
+        <div class="sg-items">
+          <span class="sk-tag">SQL</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="sg-head">Cloud &amp; Tools</div>
+        <div class="sg-items">
+          <span class="sk-tag">GCP</span>
+          <span class="sk-tag">GitHub</span>
+          <span class="sk-tag">Maven</span>
+          <span class="sk-tag">CI/CD Basics</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="sg-head">AI &amp; Automation</div>
+        <div class="sg-items">
+          <span class="sk-tag">Generative AI</span>
+          <span class="sk-tag">AI Agents</span>
+          <span class="sk-tag">Claude Skills</span>
+          <span class="sk-tag">Sarvam AI</span>
+          <span class="sk-tag">Prompt Engineering</span>
+          <span class="sk-tag">Text-to-Speech</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="sg-head">Core</div>
+        <div class="sg-items">
+          <span class="sk-tag">DSA</span>
+          <span class="sk-tag">OOP</span>
+          <span class="sk-tag">Debugging</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       EDUCATION
+  ═══════════════════════════════════════ -->
+  <section id="education" class="section">
+    <div class="section-head reveal">
+      <p class="s-label">academic background</p>
+      <h2 class="s-title">Education</h2>
+    </div>
+    <div class="reveal">
+      <div class="edu-card">
+        <div class="edu-icon">🎓</div>
+        <div class="edu-body">
+          <div class="edu-uni">Sir M Visvesvaraya Institute of Technology</div>
+          <div class="edu-degree">Bachelor of Engineering, Computer Science Engineering</div>
+          <div class="edu-chips">
+            <span class="edu-chip">Oct 2022 – Apr 2026</span>
+            <span class="edu-chip">CGPA 8.87 / 10.0</span>
+            <span class="edu-chip">Bengaluru, Karnataka</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       EXPERIENCE
+  ═══════════════════════════════════════ -->
+  <section id="experience" class="section section-alt">
+    <div class="section-head reveal">
+      <p class="s-label">where I've worked</p>
+      <h2 class="s-title">Experience</h2>
+    </div>
+    <div class="reveal">
+      <div class="exp-block">
+        <div class="exp-top">
+          <div class="exp-role">Software Development Intern</div>
+          <span class="exp-date">July 2026 – Present</span>
+        </div>
+        <div class="exp-company">Muraai Information Technologies · Bengaluru, Karnataka</div>
+        <ul class="exp-bullets">
+          <li>Contribute to software automation and AI-driven workflows as part of the development team.</li>
+          <li>Build practical automation solutions to streamline repetitive business processes and improve operational efficiency.</li>
+          <li>Support LinkedIn content and technical communication, advancing the organisation's technology-focused online presence.</li>
+          <li>Collaborate on software projects while exploring and implementing technologies based on project requirements.</li>
+          <li>Gain hands-on experience across AI, automation, software development, and real-world project execution.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       PROJECTS
+  ═══════════════════════════════════════ -->
+  <section id="projects" class="section">
+    <div class="section-head reveal">
+      <p class="s-label">what I've built</p>
+      <h2 class="s-title">Projects</h2>
+    </div>
+    <div class="projects-list reveal">
+
+      <div class="proj-card">
+        <div class="proj-title">AI-Powered Mail Automation System</div>
+        <p class="proj-desc">
+          Built an AI-powered mail automation system using Python and SMTP to read and process unread emails in an
+          organisation's HR mailbox. Created an AI workflow with Claude Skills to extract key details — organisation
+          name, date, venue, and event info — then automated context-aware acknowledgment responses.
+        </p>
+        <div class="proj-stack">
+          <span class="sk-tag">Python</span>
+          <span class="sk-tag">SMTP</span>
+          <span class="sk-tag">AI Workflow</span>
+          <span class="sk-tag">Claude Skills</span>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-title">Vendor Price Comparison System</div>
+        <p class="proj-desc">
+          Developed a Spring Boot REST API that reads and processes invoice data in JSON format, extracting and
+          comparing vendor, product, quantity, unit price, and total price to support vendor price analysis.
+          Built with modular controller/service architecture; used Jackson for JSON serialisation.
+        </p>
+        <div class="proj-stack">
+          <span class="sk-tag">Java</span>
+          <span class="sk-tag">Spring Boot</span>
+          <span class="sk-tag">REST API</span>
+          <span class="sk-tag">JSON</span>
+          <span class="sk-tag">Maven</span>
+          <span class="sk-tag">Jackson</span>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-title">AI-Powered Expenditure Tracker</div>
+        <p class="proj-desc">
+          Full-stack AI expense tracking application with intelligent analytics that identifies spending patterns and
+          generates personalised financial recommendations. Implemented JWT authentication, ML recommendation
+          algorithms, real-time React dashboards, and a scalable Node.js backend for AI-layer integration.
+        </p>
+        <div class="proj-stack">
+          <span class="sk-tag">Python</span>
+          <span class="sk-tag">React</span>
+          <span class="sk-tag">Node.js</span>
+          <span class="sk-tag">TypeScript</span>
+          <span class="sk-tag">JWT</span>
+          <span class="sk-tag">ML</span>
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-title">AI Portfolio Voice Assistant</div>
+        <p class="proj-desc">
+          Integrated Sarvam AI into a portfolio website to provide a voice-based accessibility feature that reads
+          webpage information aloud. Implemented text-to-speech conversion and connected content with Sarvam AI
+          voice capabilities through an AI-powered workflow and API integration.
+        </p>
+        <div class="proj-stack">
+          <span class="sk-tag">Sarvam AI</span>
+          <span class="sk-tag">Text-to-Speech</span>
+          <span class="sk-tag">AI Integration</span>
+          <span class="sk-tag">API</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       CERTIFICATIONS
+  ═══════════════════════════════════════ -->
+  <section id="certs" class="section section-alt">
+    <div class="section-head reveal">
+      <p class="s-label">credentials</p>
+      <h2 class="s-title">Certifications</h2>
+    </div>
+    <div class="certs-row reveal">
+      <div class="cert-item">
+        <div class="cert-name">Career Essentials in Generative AI</div>
+        <div class="cert-org">Microsoft &amp; LinkedIn</div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-name">GitHub Foundations</div>
+        <div class="cert-org">Infosys Springboard</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       CONTACT  ←  Web3Forms integration
+  ═══════════════════════════════════════ -->
+  <section id="contact" class="section">
+    <div class="section-head reveal">
+      <p class="s-label">say hello</p>
+      <h2 class="s-title">Contact</h2>
+    </div>
+
+    <div class="contact-grid reveal">
+
+      <!-- Left: info links -->
+      <div class="contact-info">
+        <p class="contact-blurb">
+          Open to full-time software engineering roles — full-stack, Java backend, Python automation,
+          or AI-adjacent positions. Feel free to reach out directly.
+        </p>
+        <div class="contact-items">
+          <a class="contact-row" href="mailto:usfankhan43@gmail.com">
+            <span class="cr-icon">✉️</span>
+            <div class="cr-meta">
+              <span class="cr-label">Email</span>
+              <span class="cr-val">usfankhan43@gmail.com</span>
+            </div>
+          </a>
+          <a class="contact-row" href="tel:+918722512748">
+            <span class="cr-icon">📞</span>
+            <div class="cr-meta">
+              <span class="cr-label">Phone</span>
+              <span class="cr-val">+91 87225 12748</span>
+            </div>
+          </a>
+          <a class="contact-row" href="https://www.linkedin.com/in/usfan-ali-khan/" target="_blank" rel="noopener">
+            <span class="cr-icon">💼</span>
+            <div class="cr-meta">
+              <span class="cr-label">LinkedIn</span>
+              <span class="cr-val">Usfan Ali Khan</span>
+            </div>
+          </a>
+          <a class="contact-row" href="https://github.com/usfankhan" target="_blank" rel="noopener">
+            <span class="cr-icon">🐙</span>
+            <div class="cr-meta">
+              <span class="cr-label">GitHub</span>
+              <span class="cr-val">github.com/usfankhan</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: Web3Forms form -->
+      <div class="cont">
+        <form action="https://api.web3forms.com/submit" method="POST" id="contactForm" novalidate>
+
+          <!-- ── Web3Forms required fields ── -->
+          <input type="hidden" name="access_key" value="45a26620-014c-49bd-af5a-1d84b918284e" />
+          <input type="hidden" name="subject"    value="New portfolio contact from usfankhan.dev" />
+          <input type="hidden" name="from_name"  value="Portfolio Contact Form" />
+          <!-- honeypot — keeps spam bots out -->
+          <input type="checkbox" name="botcheck"  style="display:none" />
+
+          <!-- Toast notification -->
+          <div class="cf-toast" id="cfToast" role="alert" aria-live="polite">
+            <span class="cf-toast-icon" id="cfToastIcon"></span>
+            <span id="cfToastMsg"></span>
+          </div>
+
+          <!-- Row 1: Name + Email -->
+          <div class="cf-row">
+            <div class="cf-group">
+              <label for="c-name">Full name <span class="req">*</span></label>
+              <input id="c-name"  type="text"  name="name"  placeholder="Your name"        required autocomplete="name" />
+            </div>
+            <div class="cf-group">
+              <label for="c-email">Email <span class="req">*</span></label>
+              <input id="c-email" type="email" name="email" placeholder="you@email.com"    required autocomplete="email" />
+            </div>
+          </div>
+
+          <!-- Row 2: Phone + Subject -->
+          <div class="cf-row">
+            <div class="cf-group">
+              <label for="c-phone">Phone <span class="opt">(optional)</span></label>
+              <input id="c-phone" type="tel"   name="phone" placeholder="+91 98765 43210"  autocomplete="tel" />
+            </div>
+            <div class="cf-group">
+              <label for="c-subj">Subject <span class="req">*</span></label>
+              <input id="c-subj"  type="text"  name="subject_user" placeholder="Job opportunity / Collaboration" required />
+            </div>
+          </div>
+
+          <!-- Message -->
+          <div class="cf-group">
+            <label for="c-msg">Message <span class="req">*</span></label>
+            <textarea id="c-msg" name="message" placeholder="Tell me what you're working on…" required></textarea>
+          </div>
+
+          <!-- Submit -->
+          <button type="submit" class="cf-submit" id="cfSubmit">
+            <span class="cf-spinner" id="cfSpinner"></span>
+            <span id="cfBtnText">Send message</span>
+          </button>
+
+        </form>
+      </div><!-- /.cont -->
+
+    </div><!-- /.contact-grid -->
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer>
+    <div class="footer-left">© 2026 Usfan Ali Khan · Bengaluru, India</div>
+    <div class="footer-links">
+      <a href="https://github.com/usfankhan"                target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/usfan-ali-khan/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:usfankhan43@gmail.com">Email</a>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+
+</body>
+</html>
